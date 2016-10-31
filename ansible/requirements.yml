@@ -1,0 +1,23 @@
+---
+# NOTE:
+# always pin an external role to a tag (version) or commit-id,
+# and optionally commit to source control for positive control.
+#
+# Commit-ID's over tags are used when the author has not released a newer version
+# and the changes are needed.
+
+- src: https://github.com/dgptamayo/ansible-role-jira
+  version: f3540d43bbebfa86352abd81515137baa748384e
+  name: dgptamayo.jira
+
+- src: https://github.com/William-Yeh/ansible-oracle-java
+  version: 2.10.0
+  name: williamyeh.oracle-java
+
+- src: https://github.com/galaxyproject/ansible-postgresql
+  version: 8eec423577aea5e9476c984f164a0d1c76db6a1f
+  name: galaxyprojectdotorg.postgresql
+
+- src: https://github.com/uoi-io/ansible-haproxy
+  version: f5b7ad57bff9122ef2a0de067d01dba7ab201611
+  name: uoi-io.haproxy

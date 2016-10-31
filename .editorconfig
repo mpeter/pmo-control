@@ -1,0 +1,8 @@
+[*]
+indent_style = space
+
+[*.tf]
+indent_size = 4
+
+[*.tfvars]
+indent_size = 4

@@ -1,0 +1,2 @@
+---
+ansible_private_key_file: "{{ lookup('env','PRJ_ROOT') }}/ssh-keys/rh-pmo-id_rsa"

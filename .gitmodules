@@ -1,0 +1,3 @@
+[submodule "ansible/terraform.py"]
+	path = ansible/terraform.py
+	url = https://github.com/CiscoCloud/terraform.py
